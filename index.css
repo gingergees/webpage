@@ -1,0 +1,81 @@
+body{
+	background-color: #EEEEEE;
+	margin: 0px;
+	padding: 0px
+}
+
+.barra_principal{
+	background-color:#000000;
+	display: flex;
+	margin: 0px;
+	padding: 0px;
+	position: fixed;
+}
+
+.logo_barra_principal{
+	margin-top: 5px;
+	margin-left: 10px;
+	width: 50px;
+	height :47px;
+}
+
+.titulo_barra_principal{
+	color: #FFFFFF;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+.items_barra_principal{
+	Color: #FFFFFF;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 130px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.items_barra_principal:hover{
+	Color: #000000;
+	background-color: #ffffff;
+	cursor: pointer;
+}
+
+.division_barra_principal1{
+	background-color:#000000;
+	margin-left: 365px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.division_barra_principal2{
+	background-color:#000000;
+	margin-left: 50px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.fila_proyectos{
+	display: flex;
+	margin: 10px;
+	padding: 10px;
+}
+
+.imagen_proyectos{
+	width: 150px;
+	height: 150px;
+	margin: 10px;
+	margin-left: 15px;
+}
+
+.imagen_proyectos:hover{
+	width: 170px;
+	height: 170px;
+	margin: 0px;
+	margin-left: 5px;
+	cursor: pointer;
+}
